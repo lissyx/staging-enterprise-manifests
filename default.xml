@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <manifest>
-  <remote fetch="git@github.com:mozilla-partners/" name="mozilla-partners"/>
+  <remote fetch="https://github.com/lissyx/" name="mozilla-partners"/>
   <remote fetch="git@github.com:mozilla" name="mozilla"/>
 
   <project name="repack-scripts" path="scripts" remote="mozilla-partners" revision="master"/>
