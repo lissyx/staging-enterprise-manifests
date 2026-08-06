@@ -1,10 +1,9 @@
 <?xml version="1.0" ?>
 <manifest>
-  <remote fetch="https://github.com/lissyx/" name="lissyx"/>
   <remote fetch="git@github.com:mozilla-partners" name="mozilla-partners"/>
   <remote fetch="git@github.com:mozilla" name="mozilla"/>
 
   <project name="repack-scripts" path="scripts" remote="mozilla-partners" revision="master"/>
   <project name="build-tools" path="scripts/tools" remote="mozilla" revision="master"/>
-  <project name="sample-configs" path="partners/smp" remote="lissyx" revision="af0ae4c92875eb434ecfc60e8a5c84953fd8576b"/>
+  <project name="sample-configs" path="partners/smp" remote="mozilla-partners" revision="99fb2dd5ef0b46bf758e6f65a2fd2c220ae679af"/>
 </manifest>
